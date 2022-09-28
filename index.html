@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Comando</th>
+            <th>Subcomando</th>
+            <th>Data</th>
+            <th></th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Surtir (0)</td>
+                <td>
+                    <label>Surtidor</label>
+                    <input type="number" min="0" max="7" id="subcmd0">
+                </td>
+                <td>
+                    <label>Porcentaje</label>
+                    <input type="number" min="0" max="100" id="data0">
+                </td>
+                <td><button id="send0">Enviar</button></td>
+            </tr>
+            <tr>
+                <td>Prender/Apagar LED (15)</td>
+                <td>
+
+                </td>
+                <td>
+                    <label>Estado</label>
+                    <input type=checkbox id="data1">
+                </td>
+                <td><button id="send1">Enviar</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="command.js"></script>
+</body>
+</html>

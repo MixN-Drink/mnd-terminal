@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+}
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+thead>tr{
+    background: black;
+    color: white;
+}
+
+tbody>tr:nth-child(even){
+    background: #FAFAFA;
+}
+
+tbody>tr:nth-child(odd){
+    background: #EEEEEE;
+}
+td {
+    padding: 5px;
+}

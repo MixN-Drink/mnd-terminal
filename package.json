@@ -1,0 +1,27 @@
+{
+  "name": "mnd-terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MixN-Drink/mnd-terminal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MixN-Drink/mnd-terminal/issues"
+  },
+  "homepage": "https://github.com/MixN-Drink/mnd-terminal#readme",
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "serialport": "^10.4.0"
+  },
+  "devDependencies": {
+    "electron": "^21.0.0"
+  }
+}
